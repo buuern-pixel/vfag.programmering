@@ -13,19 +13,30 @@
         background-color: lightblue;
         
       }
+      
+  .bilde-venstre {
+    float: left;
+    margin-right: 15px; /* Litt avstand til teksten */
+    margin-bottom: 15px; /* Avstand under bildet */
+  }
+
+  .neste-avsnitt {
+    clear: both; /* Dette tvinger avsnittet under bildet */
+  }
+
             
     </style>
   </head>
   <body> <!-- det som er inne i body taggen er den synlige nettsiden -->
     <main>
         <h1 style="font-family: "lucida handwriting", Brush Script MT, sans-serif;>Jeg er GUNNAR!</h1>
-      <img src="../bilder/gunnar.png" heigth="300" width="400" alt="time to code">
+      <img src="../bilder/gunnar.png" class="bilde-venstre" heigth="300" width="400" alt="time to code">
       <h2>Hvordan er det å være meg? </h2><br>
       <h3> <p> Folk ser meg og tenker: 'Der er han som knuser hodeskaller og bader i blodet til sine fiender, Og joda, det er en solid dagsjobb.
         Men hva gjør jeg når blodet er vasket av og hylene fra slagmarken har stilnet? Jo, da skal jeg si deg hva som skjer.
       </h3>
       </p>
-    <p> <b>Mine tre store lidenskaper</b> </p>
+    <p class="neste-avsnitt"> <b>Mine tre store lidenskaper</b> </p>
      <ul>
      <li>
        <p> <b>Surdeigsbakst:</b> <br>
