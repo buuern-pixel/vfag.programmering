@@ -1,0 +1,47 @@
+<!DOCTYPE html>   
+<!-- det som er skrevet inne i disse er forklaringer og ikke en del av koden-->
+<html lang="no"> <!-- setter språk for koden -->
+  <head>  <!-- her er info om siden title biter blir teksten som vises i fanen -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- gjør at siden vises riktig også på mobilskjermer-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  <!-- hjelper også til at siden vises riktig-->
+    <title>codestuff</title>
+    
+    <!-- ved å bruke style kan man legge til stiler til ulike deler av dokumentet dette er css kode-->
+    <style> 
+      body {     
+        background-color: lightblue;
+        
+      }
+            
+    </style>
+  </head>
+  <body> <!-- det som er inne i body taggen er den synlige nettsiden -->
+    <main>
+        <h1 style="font-family: "lucida handwriting", Brush Script MT, sans-serif;>Jeg er GUNNAR!</h1>
+      <img src="bilder/gunnar.png" heigth="300" width="400" alt="time to code">
+      <h2>Hvordan er det å være meg? <br>
+       <p> Folk ser meg og tenker: 'Der er han som knuser hodeskaller og bader i blodet til sine fiender,Og joda, det er en solid dagsjobb.
+        Men hva gjør jeg når blodet er vasket av og hylene fra slagmarken har stilnet? Jo, da skal jeg si deg hva som skjer,
+      </p>
+    <p> <b>Mine tre store lidenskaper</b> </p>
+     <ul>
+      <li><b>Surdeigsbakst:</b> <br>
+        Det er noe meditativt med å kna en deig med de samme hendene som nylig kveler en kjempeslange.
+Man må være varsom. Hvis jeg bruker for mye kraft, dør gjæren. 
+Jeg har en surdeigstarter jeg kaller 'Blodhevn'. 
+Den gir rundstykkene en fantastisk skorpe og en syrlig ettersmak som minner om seier.
+</li>
+      <li><b>Ekstrem-strikking:</b><br>
+       Jeg strikker mine egne brynjer. Men i ull. Det blir kaldt på vaktposten om natten, og det er ingen skam i å ha en hjemmestrikket vest under lærrustningen.
+Jeg foretrekker alpakkaull; den klør mindre mot huden når man rir i full galopp gjennom de hyrkanske slettene.
+</li>
+</ul>
+</h2>
+      
+  
+    </main>
+   
+  </body>
+</html>
+   
